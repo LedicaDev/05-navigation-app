@@ -3,7 +3,15 @@ import { View, Text } from "react-native";
 
 const StackLayout = () => {
   return (
-    <Stack>
+    <Stack
+      screenOptions={{
+        //headerShown: false,
+        headerShadowVisible: false,
+        contentStyle: {
+          background: "white",
+        },
+      }}
+    >
       <Stack.Screen
         name="home/index"
         options={{
