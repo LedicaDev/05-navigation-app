@@ -7,8 +7,8 @@ const TabsLayout = () => {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "indigo",
-        /* headerShown: false,
-        tabBarStyle: {
+        headerShown: false,
+        /* tabBarStyle: {
           backgroundColor: "black",
         },
         tabBarActiveBackgroundColor: "orange", */
@@ -26,7 +26,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="home/index"
         options={{
-          title: "Home",
+          title: "Inicio",
           tabBarIcon: ({ color }) => (
             <Ionicons size={28} name="home-outline" color={color} />
           ),
